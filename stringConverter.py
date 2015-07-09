@@ -6,5 +6,5 @@ def toStr(input,base):
     else:
         return toStr(input//base,base) + numbers[input%base]
 
-print toStr(6,10)
-print toStr(12456,10)
+print toStr(6,2)
+print toStr(12456,2)
